@@ -1870,6 +1870,23 @@ input, select, textarea {
 
 		}
 
+		/* Informational blurb inserted between rows of images */
+		#main .info-blurb {
+			width: 100%;
+			padding: 1.6em 2.25em;
+			margin: 0 0 1.25em 0;
+			background: rgba(36, 38, 41, 0.5);
+			color: #e6e6e6;
+			text-align: center;
+			border-radius: 0.35em;
+		}
+
+		#main .info-blurb .inner { max-width: 70rem; margin: 0 auto; }
+
+		#main .info-blurb h2 { margin: 0 0 0.4em 0; font-size: 1.1em; color: #ffffff; }
+
+		#main .info-blurb p { margin: 0; opacity: 0.95; line-height: 1.5; }
+
 		@media screen and (max-width: 1280px) {
 
 			#main .thumb {
